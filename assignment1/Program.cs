@@ -338,6 +338,231 @@ namespace LabApp2
             {
                 Console.WriteLine($"{firstNumber} / {secondNumber} = {firstNumber / secondNumber}");
             }
+            //26th-Swap two values
+            Console.WriteLine("Swap using 3rd variable");
+            Console.WriteLine("enter the number a :");
+            double a = Double.Parse(Console.ReadLine());
+            Console.WriteLine("enter the number b :");
+            double b = Double.Parse(Console.ReadLine());
+
+            double temp = 0;
+            temp = a;
+            a = b;
+            b = temp;
+            Console.WriteLine($"the number a = {a}");
+            Console.WriteLine($"the number b ={b}");
+
+            Console.WriteLine("\nSwap without using 3rd variable");
+            Console.WriteLine("enter the number a :");
+            double x = Double.Parse(Console.ReadLine());
+            Console.WriteLine("enter the number b :");
+            double y = Double.Parse(Console.ReadLine());
+
+            double sum = x + y;
+            x = sum - x; y = sum - y;
+            Console.WriteLine($"the number a = {x}");
+            Console.WriteLine($"the number b ={y}");
+            
+
+            //27th--arithmetic operations
+            Console.WriteLine("enter number a :");
+            double a = Double.Parse(Console.ReadLine());
+            Console.WriteLine("enter number b :");
+            double b = Double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"addition = {a} + {b} = {a + b}");
+            Console.WriteLine($"subtraction = {a} - {b} = {a - b}");
+            Console.WriteLine($"multiplication = {a} * {b} = {a * b}");
+
+            Console.WriteLine($"modulus = {a} % {b} = {a % b}");
+            Console.WriteLine($"increment of {a} = {a + 1} and increment of {b} = {b + 1}");
+            Console.WriteLine($"decrement of {a} ={a - 1} and decrement of {b} = {b - 1}");
+
+            if (b != 0)
+            {
+                Console.WriteLine($"division = {a} / {b} = {a / b}");
+
+            }
+            else
+            {
+                Console.WriteLine("division not possible");
+            }
+            
+
+            //28th--average of three nos
+            Console.WriteLine("Enter three numbers :");
+            double firstNumber = double.Parse(Console.ReadLine());
+            double secondNumber = double.Parse(Console.ReadLine());
+            double thirdNumber = double.Parse(Console.ReadLine());
+            double average = (firstNumber + secondNumber + thirdNumber) / 3;
+            Console.WriteLine($"Average is {average}");
+            
+
+            //28th
+
+            //29th--currency conversion
+            Console.WriteLine("Enter amount in USD:");
+            double usd = double.Parse(Console.ReadLine());
+            double convsersionFactor = 0.85;
+            double eur = usd * convsersionFactor;
+            Console.WriteLine($"Amount in EUR: {eur}");
+           
+
+            //30th-- Input is within a range
+            Console.WriteLine("Enter number :");
+            int number = int.Parse(Console.ReadLine());
+            int flag = 0;
+            if (number >= 1 && number <= 100)
+            {
+                flag = 1;
+            }
+            int x = number % 2;
+            if (flag == 0)
+            {
+                Console.WriteLine("Number does not meet conditions");
+            }
+            else
+            {
+                if (x == 1) { Console.WriteLine("Number meets the conditions and is odd"); }
+                else { Console.WriteLine("Number meets the conditions and is even"); }
+            }
+            
+
+            //31st--divisibilty by 3 and 5
+            Console.WriteLine("enter the number");
+            double num = Double.Parse(Console.ReadLine());
+
+            if (num % 3 == 0 && num % 5 == 0)
+            {
+                Console.WriteLine("divisible by both 3 and 5");
+            }
+            else
+            {
+                Console.WriteLine("not divisible by both 3 and 5");
+            }
+            
+           
+            Console.WriteLine("enter the year:");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            if (y % 4 == 0)
+            {
+                if (y % 100 == 0)
+                {
+                    if (y % 400 == 0)
+                    {
+                        Console.WriteLine("it is a leap year");
+                    }
+                    else
+                    {
+                        Console.WriteLine("it is not a leap year");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("it is a leap year");
+                }
+            }
+            else
+            {
+                Console.WriteLine(" it is not a leap year");
+            }
+            
+            
+
+            //33rd--Check whether a number is positive, even and greater than 50
+            Console.WriteLine("Enter number :");
+            int number = int.Parse(Console.ReadLine());
+
+            if (number > 0)
+            {
+                if (number % 2 == 0)
+                {
+                    if (number > 50)
+                    {
+                        Console.WriteLine($"{number} is positive, even and greater than 50");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{number} does NOT meet all conditions");
+                    }
+                }
+            }
+           
+            
+
+            //34th--Calculate student grade 
+            Console.WriteLine("enter marks of sub1 out of 100");
+            double m1 = Double.Parse(Console.ReadLine());
+            Console.WriteLine("enter the marks of sub2 out of 100");
+            double m2 = Double.Parse(Console.ReadLine());
+
+            Console.WriteLine("enter the markds of sub3 out of 100");
+            double m3 = Double.Parse(Console.ReadLine());
+            int count = 0;
+
+            if (m1 >= 40 && m2 >= 40 && m3 >= 40)
+            {
+                double av = (m1 + m2 + m3) / 3;
+                Console.Write("the student had passed all the subjects");
+                if (av > 70)
+                {
+                    Console.Write($" with distiction");
+                }
+            }
+            else
+            {
+                if (m1 < 40)
+                {
+                    count++;
+                }
+                if (m2 < 40)
+                { count++; }
+                if (m3 < 40)
+                { count++; }
+
+                Console.WriteLine($"the number of subjects failed is {count}");
+            }
+           
+            
+
+            //35th--Salary and Tax Calculation 
+            Console.WriteLine("Enter salary ");
+            double salary = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter age ");
+            int age = int.Parse(Console.ReadLine());
+
+            double tax = 0;
+
+            if (salary < 10000)
+            {
+                tax = 0;
+                Console.WriteLine("Tax not applicable");
+            }
+            else if (salary > 10000 && salary < 50000)
+            {
+                tax = salary * 0.1;
+            }
+            else if (salary > 50000)
+            {
+                tax = salary * 0.2;
+            }
+
+
+            if (tax < 5000 && age >= 60)
+            {
+                Console.WriteLine("Tax not applicable");
+            }
+            else if (tax >= 5000 && age >= 60)
+            {
+                Console.WriteLine($"Tax after reduction is {tax - 5000}");
+            }
+            else if (tax > 10000 && age < 60)
+            {
+                Console.WriteLine($"Tax is {tax}");
+            }
+
 
             Console.ReadLine();
 

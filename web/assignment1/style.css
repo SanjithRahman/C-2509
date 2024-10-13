@@ -1,0 +1,14 @@
+p{
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight:bold;
+}
+h1{
+    text-align: center;
+
+}
+ol{
+    display: flex;
+    flex-direction: column; /* Aligns the list items vertically */
+    align-items: center;
+}
