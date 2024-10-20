@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Quiz</title>
+    
+</head>
+<body>
+    <h1>Simple Quiz</h1>
+    <form id="quiz-form">
+        <div class="question">
+            <h2>1. What does HTML stand for?</h2>
+            <label><input type="radio" name="q1" value="wrong"> Hyperlinks and Text Markup Language</label><br>
+            <label><input type="radio" name="q1" value="correct"> Hyper Text Markup Language</label><br>
+            <label><input type="radio" name="q1" value="wrong"> Home Tool Markup Language</label>
+        </div>
+        <div class="question">
+            <h2>2. What is 2 + 2?</h2>
+            <label><input type="radio" name="q2" value="wrong"> 3</label><br>
+            <label><input type="radio" name="q2" value="correct"> 4</label><br>
+            <label><input type="radio" name="q2" value="wrong"> 5</label>
+        </div>
+        <div class="question">
+            <h2>3. What is the largest ocean?</h2>
+            <label><input type="radio" name="q3" value="wrong"> Atlantic</label><br>
+            <label><input type="radio" name="q3" value="correct"> Pacific</label><br>
+            <label><input type="radio" name="q3" value="wrong"> Indian</label>
+        </div>
+        <button type="submit">Submit Quiz</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

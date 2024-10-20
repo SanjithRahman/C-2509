@@ -1,14 +1,42 @@
-p{
-    font-size: 0.8rem;
-    text-align: center;
-    font-weight:bold;
-}
-h1{
-    text-align: center;
 
-}
-ol{
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column; /* Aligns the list items vertically */
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: #333333; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 1.2em;
+    color: #555555; 
+    margin-bottom: 15px;
+}
+
+
+ol {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    list-style-type: none;
+}
+
+ol li {
+    padding: 5px 0;
+    font-size: 1em;
+    color: #444444; 
 }

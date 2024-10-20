@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid black;
+        padding: 200px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px black;
+    }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+    <p>Calculator</p>
+    <input  type="number" id="num1" placeholder="enter 1st number">
+    <input type="number" id="num2" placeholder="enter  2nd number">
+    <select id="operation">
+        <option value="add">Addition (+)</option>
+        <option value="subtract">Subtraction (-)</option>
+        <option value="multiply">Multiplication (×)</option>
+        <option value="divide">Division (÷)</option>
+    </select>
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result"></p>
+    <script >
+        function calculate(){
+            let sum1=0;
+        let num1=parseFloat(document.getElementById("num1").value);
+        let num2=parseFloat(document.getElementById("num2").value);
+        let operation=document.getElementById("operation").value;
+        let result;
+        switch(operation){
+            case 'add':
+                result=num1+num2;
+                break;
+            case 'subtract':
+                result=num1-num2;
+                break;
+            case 'multiply':
+                result=num1*num2;
+                break;
+            case 'divide':
+                if(num2 == 0){
+                    document.getElementById('result').textContent ='Cannot divde by zero';
+                    break
+                }
+                result=num1/num2;
+                result=result.toFixed(2);
+                break;
+            default:
+            document.getElementById('result').textContent ='invald operaton'
+                break;
+
+                
+
+            }
+            document.getElementById('result').textContent = 'Result:'+result
+            
+
+
+
+
+        }
+
+        
+    </script>
+    </div>
+</body>
+</html>

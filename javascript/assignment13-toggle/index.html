@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light/Dark Mode Toggle</title>
+    <style>
+        .calculator {
+
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid black;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px black;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Toggle Light/Dark Mode</h1>
+        <input type="text" id="color" placeholder="Enter the color (red, blue, green)">
+        <select id="selectColor">
+            <option value="light">Light Mode</option>
+            <option value="dark">Dark Mode</option>
+        </select>
+        <button id="change">Change Mode</button>
+    </div>
+    <script>
+        document.getElementById('change').onclick = function() {
+            const body = document.body;
+            const colorInput = document.getElementById('color').value;
+            const selectedMode = document.getElementById('selectColor').value;
+
+            let backgroundColor;
+
+            if (selectedMode === 'light') {
+                
+                backgroundColor = 'light-' + colorInput; 
+            } 
+            else{
+
+                backgroundColor = 'dark-' + colorInput; 
+            }
+
+            if (backgroundColor === 'light-red') {
+                body.style.backgroundColor = '#ffcccc';
+            } 
+            else if (backgroundColor === 'dark-red') {
+
+                body.style.backgroundColor = '#990000';
+            } 
+            else if (backgroundColor === 'light-blue') {
+
+                body.style.backgroundColor = '#add8e6';
+            } 
+            else if (backgroundColor === 'dark-blue') {
+                body.style.backgroundColor = '#00008b';
+            } 
+            else if (backgroundColor === 'light-green') {
+
+                body.style.backgroundColor = '#90ee90';
+            } 
+            else if (backgroundColor === 'dark-green') {
+                body.style.backgroundColor = '#006400';
+            } 
+            else {
+                body.style.backgroundColor = 'white'; 
+            }
+
+            body.style.color = 'black'; 
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append to Existing Paragraph</title>
+    <style>
+        .calculator { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid black;
+            padding: 20px; 
+            border-radius: 5px;
+            box-shadow: 0 2px 4px black;
+        }
+        #newParagraph {
+             
+            color: blue; 
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <p>To-Do List</p>
+        <input type="text" id="num1" placeholder="Enter your task"> 
+        <button onclick="addText()">Add Task</button>
+        <p id="newParagraph"></p> 
+    </div>
+
+    <script>
+        function addText() {
+            const paragraph = document.getElementById('newParagraph');
+            const val = document.getElementById('num1').value; 
+
+            
+            paragraph.innerHTML += val + '.<br>'; 
+           
+        }
+    </script>
+</body>
+</html>
