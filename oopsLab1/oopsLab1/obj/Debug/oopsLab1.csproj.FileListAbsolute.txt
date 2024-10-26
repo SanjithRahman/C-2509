@@ -1,0 +1,7 @@
+C:\Users\sanjjith rahman\source\repos\oopsLab1\oopsLab1\bin\Debug\oopsLab1.exe.config
+C:\Users\sanjjith rahman\source\repos\oopsLab1\oopsLab1\bin\Debug\oopsLab1.exe
+C:\Users\sanjjith rahman\source\repos\oopsLab1\oopsLab1\bin\Debug\oopsLab1.pdb
+C:\Users\sanjjith rahman\source\repos\oopsLab1\oopsLab1\obj\Debug\oopsLab1.csproj.AssemblyReference.cache
+C:\Users\sanjjith rahman\source\repos\oopsLab1\oopsLab1\obj\Debug\oopsLab1.csproj.CoreCompileInputs.cache
+C:\Users\sanjjith rahman\source\repos\oopsLab1\oopsLab1\obj\Debug\oopsLab1.exe
+C:\Users\sanjjith rahman\source\repos\oopsLab1\oopsLab1\obj\Debug\oopsLab1.pdb
