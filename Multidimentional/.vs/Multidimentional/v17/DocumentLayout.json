@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sanjjith rahman\\source\\repos\\Multidimentional\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9AC83F6-5A67-443D-BA4C-1655B407131D}|Multidimentional\\Multidimentional.csproj|c:\\users\\sanjjith rahman\\source\\repos\\multidimentional\\multidimentional\\multi-dimensional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9AC83F6-5A67-443D-BA4C-1655B407131D}|Multidimentional\\Multidimentional.csproj|solutionrelative:multidimentional\\multi-dimensional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9AC83F6-5A67-443D-BA4C-1655B407131D}|Multidimentional\\Multidimentional.csproj|C:\\Users\\sanjjith rahman\\source\\repos\\Multidimentional\\multidimentional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9AC83F6-5A67-443D-BA4C-1655B407131D}|Multidimentional\\Multidimentional.csproj|solutionrelative:multidimentional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Multi-dimensional.cs",
+              "DocumentMoniker": "C:\\Users\\sanjjith rahman\\source\\repos\\Multidimentional\\Multidimentional\\Multi-dimensional.cs",
+              "RelativeDocumentMoniker": "Multidimentional\\Multi-dimensional.cs",
+              "ToolTip": "C:\\Users\\sanjjith rahman\\source\\repos\\Multidimentional\\Multidimentional\\Multi-dimensional.cs",
+              "RelativeToolTip": "Multidimentional\\Multi-dimensional.cs",
+              "ViewState": "AgIAAEMBAAAAAAAAAAAUwIsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:52:12.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sanjjith rahman\\source\\repos\\Multidimentional\\Multidimentional\\Program.cs",
+              "RelativeDocumentMoniker": "Multidimentional\\Program.cs",
+              "ToolTip": "C:\\Users\\sanjjith rahman\\source\\repos\\Multidimentional\\Multidimentional\\Program.cs",
+              "RelativeToolTip": "Multidimentional\\Program.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAiwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:49:47.319Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

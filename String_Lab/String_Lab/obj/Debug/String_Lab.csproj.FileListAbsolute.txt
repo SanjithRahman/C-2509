@@ -1,0 +1,7 @@
+C:\Users\sanjjith rahman\source\repos\String_Lab\String_Lab\bin\Debug\String_Lab.exe.config
+C:\Users\sanjjith rahman\source\repos\String_Lab\String_Lab\bin\Debug\String_Lab.exe
+C:\Users\sanjjith rahman\source\repos\String_Lab\String_Lab\bin\Debug\String_Lab.pdb
+C:\Users\sanjjith rahman\source\repos\String_Lab\String_Lab\obj\Debug\String_Lab.csproj.AssemblyReference.cache
+C:\Users\sanjjith rahman\source\repos\String_Lab\String_Lab\obj\Debug\String_Lab.csproj.CoreCompileInputs.cache
+C:\Users\sanjjith rahman\source\repos\String_Lab\String_Lab\obj\Debug\String_Lab.exe
+C:\Users\sanjjith rahman\source\repos\String_Lab\String_Lab\obj\Debug\String_Lab.pdb

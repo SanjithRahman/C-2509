@@ -1,0 +1,7 @@
+C:\Users\sanjjith rahman\source\repos\Multidimentional\Multidimentional\bin\Debug\Multidimentional.exe.config
+C:\Users\sanjjith rahman\source\repos\Multidimentional\Multidimentional\bin\Debug\Multidimentional.exe
+C:\Users\sanjjith rahman\source\repos\Multidimentional\Multidimentional\bin\Debug\Multidimentional.pdb
+C:\Users\sanjjith rahman\source\repos\Multidimentional\Multidimentional\obj\Debug\Multidimentional.csproj.AssemblyReference.cache
+C:\Users\sanjjith rahman\source\repos\Multidimentional\Multidimentional\obj\Debug\Multidimentional.csproj.CoreCompileInputs.cache
+C:\Users\sanjjith rahman\source\repos\Multidimentional\Multidimentional\obj\Debug\Multidimentional.exe
+C:\Users\sanjjith rahman\source\repos\Multidimentional\Multidimentional\obj\Debug\Multidimentional.pdb

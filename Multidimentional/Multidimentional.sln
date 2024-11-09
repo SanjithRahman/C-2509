@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multidimentional", "Multidimentional\Multidimentional.csproj", "{F9AC83F6-5A67-443D-BA4C-1655B407131D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9AC83F6-5A67-443D-BA4C-1655B407131D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AC83F6-5A67-443D-BA4C-1655B407131D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AC83F6-5A67-443D-BA4C-1655B407131D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AC83F6-5A67-443D-BA4C-1655B407131D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42036928-4FB1-460D-BE10-36955331039C}
+	EndGlobalSection
+EndGlobal
